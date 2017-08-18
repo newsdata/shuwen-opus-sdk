@@ -1,0 +1,19 @@
+PODS:
+  - Kiwi (2.4.0)
+  - shw-ios-opus-a (0.1.0)
+
+DEPENDENCIES:
+  - Kiwi
+  - shw-ios-opus-a (from `../`)
+
+EXTERNAL SOURCES:
+  shw-ios-opus-a:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  shw-ios-opus-a: 433c0a5e43683dedd45aa34a97afec5a8bec9ad5
+
+PODFILE CHECKSUM: 083bfc8ec6276dcdbc89c4814bdf96a01b1f187e
+
+COCOAPODS: 1.2.1

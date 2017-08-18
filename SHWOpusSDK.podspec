@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'shw-ios-opus-a'
+  s.name             = 'SHWOpusSDK'
   s.version          = '0.1.0'
   s.summary          = '暂时无法把.a打包到framework里面，opus.a在cocoapod仓库中没有，所以需要这个仓库作依赖.'
 
