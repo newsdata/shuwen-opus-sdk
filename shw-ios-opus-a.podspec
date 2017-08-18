@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'git@code.aliyun.com:xhzy-ios/shw-ios-opus-a.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'shw-ios-opus-a/Classes/**/*'
+  s.source_files = 'shw-ios-opus-a/Classes/*'
   s.public_header_files = 'shw-ios-opus-a/Classes/*.h'
   s.ios.vendored_library = 'shw-ios-opus-a/Classes/libopus.a'
 end
