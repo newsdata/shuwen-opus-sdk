@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'shw-ios-opus-a_Example' do
+  pod 'shw-ios-opus-a', :path => '../'
+
+  target 'shw-ios-opus-a_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end
