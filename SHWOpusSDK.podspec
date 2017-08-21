@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SHWOpusSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'sub lib of SHWNLSClientSDK.'
   s.homepage         = 'https://code.aliyun.com/xhzy-ios/SHWOpusSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yayang' => 'yangyang@shuwen.com' }
-  s.source           = { :git => 'git@code.aliyun.com:xhzy-ios/SHWOpusSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://code.aliyun.com/xhzy-ios/SHWOpusSDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'shw-ios-opus-a/Classes/*'
