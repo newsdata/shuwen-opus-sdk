@@ -26,4 +26,4 @@ yayang, yangyang@shuwen.com
 
 ## License
 
-shw-ios-opus-a is available under the MIT license. See the LICENSE file for more info.
+SHWOpusSDK is available under the MIT license. See the LICENSE file for more info.
