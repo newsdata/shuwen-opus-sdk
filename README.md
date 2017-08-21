@@ -1,24 +1,29 @@
-# shw-ios-opus-a
+# SHWOpusSDK
 
-[![CI Status](http://img.shields.io/travis/yayang/shw-ios-opus-a.svg?style=flat)](https://travis-ci.org/yayang/shw-ios-opus-a)
-[![Version](https://img.shields.io/cocoapods/v/shw-ios-opus-a.svg?style=flat)](http://cocoapods.org/pods/shw-ios-opus-a)
-[![License](https://img.shields.io/cocoapods/l/shw-ios-opus-a.svg?style=flat)](http://cocoapods.org/pods/shw-ios-opus-a)
-[![Platform](https://img.shields.io/cocoapods/p/shw-ios-opus-a.svg?style=flat)](http://cocoapods.org/pods/shw-ios-opus-a)
+## 1 如何接入
 
-## Example
+### 1.1 在机器上添加Pod仓库
+在命令行输入并执行：
+```bash
+pod repo add frameworkplatform https://code.aliyun.com/xhzy-ios/frameworkplatform.git
+```
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-shw-ios-opus-a is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### 1.2 在项目的 Podfile 中，添加如下依赖：
 
 ```ruby
-pod "SHWOpusSDK"
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://code.aliyun.com/xhzy-ios/frameworkplatform.git'
+
+target 'YourProject' do
+  pod 'SHWOpusSDK'
+end
 ```
+
+### 1.3 执行 `pod install`
+
+## 2 Requirements
+
+Deploy target : iOS 8.0.
 
 ## Author
 
@@ -27,3 +32,5 @@ yayang, yangyang@shuwen.com
 ## License
 
 SHWOpusSDK is available under the MIT license. See the LICENSE file for more info.
+
+
