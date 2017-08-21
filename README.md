@@ -17,12 +17,12 @@ shw-ios-opus-a is available through [CocoaPods](http://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "shw-ios-opus-a"
+pod "SHWOpusSDK"
 ```
 
 ## Author
 
-yayang, yy_jt2008@163.com
+yayang, yangyang@shuwen.com
 
 ## License
 
