@@ -1,19 +1,16 @@
 PODS:
-  - Kiwi (2.4.0)
-  - shw-ios-opus-a (0.1.0)
+  - SHWOpus (0.2.0)
 
 DEPENDENCIES:
-  - Kiwi
-  - shw-ios-opus-a (from `../`)
+  - SHWOpus (from `../`)
 
 EXTERNAL SOURCES:
-  shw-ios-opus-a:
+  SHWOpus:
     :path: ../
 
 SPEC CHECKSUMS:
-  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
-  shw-ios-opus-a: 433c0a5e43683dedd45aa34a97afec5a8bec9ad5
+  SHWOpus: df8858024d460a0104568b20d47966bb733360bf
 
-PODFILE CHECKSUM: 083bfc8ec6276dcdbc89c4814bdf96a01b1f187e
+PODFILE CHECKSUM: 875d04faaa73959384fa362430b8c2e138754701
 
 COCOAPODS: 1.2.1

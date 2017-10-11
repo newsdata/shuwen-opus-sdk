@@ -1,25 +1,16 @@
-# SHWOpusSDK
+# SHWOpus
 
 ## 1 如何接入
 
-### 1.1 在机器上添加Pod仓库
-在命令行输入并执行：
-```bash
-pod repo add frameworkplatform https://code.aliyun.com/xhzy-ios/frameworkplatform.git
-```
-
-### 1.2 在项目的 Podfile 中，添加如下依赖：
+### 1.1 在项目的 Podfile 中，添加如下依赖：
 
 ```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-source 'https://code.aliyun.com/xhzy-ios/frameworkplatform.git'
-
 target 'YourProject' do
-  pod 'SHWOpusSDK'
+  pod 'SHWOpus', '~> 0.3.0'
 end
 ```
 
-### 1.3 执行 `pod install`
+### 1.2 执行 `pod install`
 
 ## 2 Requirements
 
